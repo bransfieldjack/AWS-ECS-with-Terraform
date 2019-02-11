@@ -144,3 +144,10 @@ Breakdown of tasks:
        }
   }
  ```
+
+ - You should end up with the following:
+
+ ![expected_output](https://s3-ap-southeast-2.amazonaws.com/aws-ecs-setup/expected_output.PNG)
+ ![verified](https://s3-ap-southeast-2.amazonaws.com/aws-ecs-setup/vpc_created.PNG)
+
+ - Once verified, you can destroy the resources using the ```terraform destroy``` command.
